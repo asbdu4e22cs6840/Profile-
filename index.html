@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: skyblue; /* Changed background to sky blue */
+        }
+        .container {
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .top {
+            width: 100%;
+            background-color:green;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .top img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+        .contact {
+            margin-top: 20px;
+        }
+        .bottom {
+            width: 100%;
+            background-color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            margin-bottom: 10px;
+            border-bottom: 2px solid black;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Top Section -->
+        <div class="top">
+            <img src="profile.jpg" alt="Profile Picture">
+            <div class="contact">
+                <h3>Contact Details</h3>
+                <p style="text-align:left;">Email: <br>sivaraj2727n@gmail.com</p>
+                <p style="text-align:left;">Phone: <br> +91 6379031423</p>
+                <p style="text-align:left;">Address: <br>koriyampatti, Ariyalur</p>
+            </div>
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="bottom">
+            <div class="section">
+                <h2>About</h2>
+                <p>Hello! I'm Siva Raj, a web developer with a passion for creating clean, responsive, and user-friendly websites.</p>
+            </div>
+            <div class="section">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                    <li>MySQL</li>
+                    <li>Git/GitHub</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Hobbies</h2>
+                <p>Listening to music, exploring new technologies, and reading books.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
